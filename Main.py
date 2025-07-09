@@ -27,10 +27,8 @@ INTERVALS = {
 N_STEPS   = 30
 FEATURES  = 1
 MODEL_DIR = 'models'
-OUTPUT_DIR = 'output'
 
 os.makedirs(MODEL_DIR, exist_ok=True)
-os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
 def process_interval(ticker, key, cfg, val_split=0.2, epochs=10, batch_size=64):
