@@ -8,13 +8,14 @@ By default, the app includes pre-trained models for **AAPL (Apple Inc.)**, but y
 
 ## 🚀 Getting Started
 
-> **Python 3.10 is required**
+> **Python 3.10 is required** 
 
 ### 1. Set up the virtual environment
 
 ```bash
 python3.10 -m venv venv
 source venv/bin/activate
+
 ```
 
 ### 2. Install required dependencies
